@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<!-- Using Bootstrap's index.html template -->
+<!-- Header Section containing link back to main site-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Advanced Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="search_engine_template.css">
+</head>
+
+<body>
+    <!-- Header Section containing link and title -->
+    <header class="container"style="padding-bottom:0px; padding-right:0px">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Google Search</a>
+        </ul>
+        <div class="container">
+        <h2 style="text-align: center;">Advanced Search</h2>
+        </div>
+    </header>
+    <hr>
+    <!--Main Body -->
+    <form action="https://www.google.com/search" name="f">
+        <!-- List of Specifications -->
+        <ol style="list-style:none; padding: 10px; " >
+            <h2 style="font-size: 35px; ">Find Pages With...</h2>
+            <li class="container">
+                <pre>All these words :                  </pre>
+                <input id="searchbox" type="text" name="as_q" autocomplete="off">
+                <div id = "advsrch_align">
+                <p>Type the important words :</p>
+                <p id="altp">tri-colour rat terrier</p>
+                </div>
+            </li>
+            <li class="container" >
+                <pre>This exact word or phrase :  </pre>
+                <input id="searchbox" type="text" name="as_epq" autocomplete="off">
+                <div id = "advsrch_align">
+                    <p>Put exact words in quotes :</p>
+                    <p id="altp">"rat terrier"</p>
+                </div>
+            </li>
+            <li class="container" >
+                <pre>Any of these words :            </pre>
+                <input id="searchbox" type="text" name="as_oq" autocomplete="off">
+                <div id = "advsrch_align">
+                    <p>Type 'OR' between all the words you want :</p>
+                    <p id="altp">miniature OR standard</p>
+                </div>
+            </li>
+            <li class="container" >
+                <pre>None of these words :           </pre>
+                <input id="searchbox" type="text" name="as_eq" autocomplete="off">
+                <div id = "advsrch_align">
+                    <p>Put a minus sign just before words that you don't want :</p>
+                    <p id="altp">-rodent , -"Jack Russell"</p>
+                </div>
+            </li>
+            <li class="container" >
+                <pre>Numbers ranging from :       </pre>
+                <input id="searchbox" type="text" style="width: 28%;" name="as_nlo" autocomplete="off">
+                <span id="sep"> to </span>
+                <input id="searchbox" type="text" style="width: 28%;" name="as_nhi" autocomplete="off">
+                <div id = "advsrch_align">
+                    <p>Put two full stops between the numbers and add a unit of measurement :</p>
+                    <p id="altp">10..35 kg , £300..£500 , 2010..2011</p>
+                </div>
+            </li>
+        </ol>
+        <!-- Button -->
+        <div class="container" style="text-align: right; padding-right: 38px;">
+            <input class="btn btn-primary" type="submit" value="Advanced Search">
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+</body>
+</html>

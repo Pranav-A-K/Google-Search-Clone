@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 125px;
+    text-align: center;
+    color: azure;
+}
+
+.container {
+    padding: 25px;
+    text-align: center;
+}
+
+
+#search_bar {
+    width: 75%;
+    border-width: 7px;
+    border-style: groove;
+    background-color: snow;
+    padding-left: 20px;
+}
+
+#button {
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+
+#get_lucky {
+    font-family: "Times New Roman", Times, serif;
+    border-width: 3px;
+    
+}
+
+h2  {
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;  
+}
+
+hr  {
+  height: 7px;
+  color: aliceblue ;
+} 
+
+pre {
+    display: inline;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+
+#searchbox {
+    display: inline;
+    width: 60%;
+    background-color: rgb(25, 25, 25);
+    border-width: 3px;
+    border-color: azure;
+    padding-inline:7px;
+    color: ghostwhite;
+}
+
+#sep {  
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+p {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-align: right !important;
+    padding: 10px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+#altp {
+    display:inline;
+    font-size : 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    color: bisque ;
+    text-align: right !important;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+ol > li 
+{
+    text-align: left;
+}
+
+#advsrch_align
+{
+    text-align: left;
+    padding: 5px;
+}
